@@ -24,7 +24,6 @@ int main()
 {
     int n, max, min;
     scanf("%d",&n);
-    printf("%d\n",divisores(n,&max,&min));
-    if (divisores(n,&max,&min)==1) printf("%d %d\n",max, min);
+    divisores(n,&max,&min);
     return 0;
 }
